@@ -6,6 +6,8 @@
 # For multiples of 15, output   FizzBuzz
 # End at 32
 
+result = ""
+
 for x in range(32):
   myNum = x+1
   if myNum % 15 == 0:
@@ -16,4 +18,4 @@ for x in range(32):
     print("Fizz")
   else:
     print(myNum)
-    result = result+str(myNum) + "\n"
+    result = result + str(myNum) + "\n"
