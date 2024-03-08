@@ -6,8 +6,9 @@
 # For multiples of 15, output   FizzBuzz
 # End at 32
 
-result = ""
-for myNumber in range(32):
-  result = str(result) + str(myNumber) + "\n"
-
-print(result)
+for x in range(1,32)
+ myNum = x+1
+ if myNum % 3 == 0:
+   print("Fizz")
+else:
+  print(myNum)
