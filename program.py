@@ -9,10 +9,10 @@
 for x in range(32):
   myNum = x+1
   if myNum % 15 == 0:
-    return("FizzBuzz")
+    print("FizzBuzz")
   elif myNum % 5 == 0:
-    return("Buzz")
+    print("Buzz")
   elif myNum % 3 == 0:
-    return("Fizz")
+    print("Fizz")
   else:
-    return(myNum)
+    print(myNum)
