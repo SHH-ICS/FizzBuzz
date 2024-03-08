@@ -9,7 +9,7 @@
 for x in range(32):
   myNum = x+1
   if myNum % 15 == 0:
-    print("Fizzbuzz")
+    print("FizzBuzz")
   elif myNum % 5 == 0:
     print("Buzz")
   elif myNum % 3 == 0:
