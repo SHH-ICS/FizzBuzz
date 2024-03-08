@@ -16,3 +16,4 @@ for x in range(32):
     print("Fizz")
   else:
     print(myNum)
+    result = result+str(myNum) + "\n"
