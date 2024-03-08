@@ -6,9 +6,13 @@
 # For multiples of 15, output   FizzBuzz
 # End at 32
 
-for x in range(1,32)
- myNum = x+1
- if myNum % 3 == 0:
-   print("Fizz")
-else:
-  print(myNum)
+for x in range(32):
+  myNum = x+1
+  if myNum % 15 == 0:
+    print("Fizzbuzz")
+  elif myNum % 5 == 0:
+    print("Buzz")
+  elif myNum % 3 == 0:
+    print("Fizz")
+  else:
+    print(myNum)
