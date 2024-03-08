@@ -12,10 +12,13 @@ for x in range(32):
   myNum = x+1
   if myNum % 15 == 0:
     print("FizzBuzz")
+    result = result + str(FizzBuzz) + "\n"
   elif myNum % 5 == 0:
     print("Buzz")
+    result = result + str(Buzz) + "\n"
   elif myNum % 3 == 0:
     print("Fizz")
+    result = result + str(Fizz) + "\n"
   else:
     print(myNum)
     result = result + str(myNum) + "\n"
